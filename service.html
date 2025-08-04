@@ -2,63 +2,121 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <p>Last updated: <script>document.write(document.lastModified);</script></p>
+    <style>
+    body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #b2dfdb;
+    }
+
+    .warning {
+      background-color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .title {
+      padding: 20px;
+      background-color: #48c9b0;
+    }
+
+    .title h1, .title p {
+      margin: 0;
+    }
+
+    .container {
+      margin: 10px;
+      padding: 10px;
+    }
+
+    footer h2 {
+      color: #007BFF;
+      font-size: 1.5em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    footer h2 img {
+      height: 1em;
+      width: auto;
+      vertical-align: middle;
+    }
+
+    </style>
+
   </head>
-<body>
-  <center><font face="Helvetica" size="7" color="red"><b>STOP!</b></font></center><br><br>
-  <center><font face="Helvetica" size="5" color="black"><b>Call </font><font face="Helvetica" size="7" color="red">911 </font><font face="Helvetica" size="5" color="black"><u>IMMEDIATELY</u> for medical emergency!</b></font></center>
-  <h1>Our Services</h1>
-    <p>Here at Eloheh, we are committed to providing comprehensive healthcare solutions tailored to meet your needs. Our team of medical professionals will ensure that you have the best experience with us. Below is a list of our core service areas:</p>
 
-  <h2>Primary Care</h2>
-    <p>Compassionate and consistent care for you and your families:</p>
-      <ul>
-        <li>Annual Physical Exams</li>
-        <li>Chronic Disease Management (Diabetes, Hypertension, etc.)</li>
-        <li>Immunizations and Vaccinations</li>
-        <li>Preventive Health Screenings</li>
-        <li>Acute Illness Diagnosis and Treatment</li>
-      </ul>
-  
-  <h2>Specialist Services</h2>
-    <p>Expert care across a wide range of specialties:</p>
-      <ul>
-        <li>Cardiology</li>
-        <li>Dermatology</li>
-        <li>Orthopedics</li>
-        <li>Gastroenterology</li>
-        <li>Endocrinology</li>
-      </ul>
-  
-  <h2>Diagnostic Services</h2>
-    <p>Advanced diagnostic equipment for accurate and timely results:</p>
-      <ul>
-        <li>Laboratory Testing (Blood, Urine, etc.)</li>
-        <li>X-Ray Imaging</li>
-        <li>Ultrasound</li>
-        <li>MRI and CT Scans</li>
-        <li>Cardiac Stress Tests</li>
-      </ul>
+  <body>
+    <div class="warning">
+      <center><font face="Helvetica" size="7" color="red"><b>STOP!</b></font></center><br><br>
+      <center><font face="Helvetica" size="5" color="black"><b>Call</font><font face="Helvetica" size="7" color="red"> 911 </font><font face="Helvetica" size="5" color="black"><u>IMMEDIATELY</u> for medical emergency!</b></font></center>
+    </div>
 
-  <h2>Telehealth</h2>
-    <p>Virtual care when you can't visit us:</p>
-      <ul>
-        <li>Virtual Doctor Visits</li>
-        <li>Medication Refills</li>
-        <li>Follow-up Appointments</li>
-        <li>Behavioral Health Counseling</li>
-        <li>Specialist Referrals</li>
-      </ul>
+    <div class="title">
+    <h1>Our Services</h1>
+      <p>Here at <i>Eloheh</i>, we are committed to providing comprehensive healthcare solutions tailored to meet your needs. Our team of medical professionals will ensure that you have the best experience with us. Below is a list of our core service areas:</p>
+    </div>
 
-  <h2>Emergency & Urgent Care</h2>
-    <p>24/7 medical support for unexpected health issues:</p>
-      <ul>
-        <li>Minor Injuries and Burns</li>
-        <li>Fever, Flu, and Infections</li>
-        <li>Sprains and Fractures</li>
-        <li>Allergic Reactions</li>
-        <li>Shortness of Breath or Chest Pain</li>
-      </ul>
-  <h2><a href="mailto:chiang@purdue.edu">Contact me</a></h2>
-</body>
+    <div class="container">
+      <h2>Emergency & Urgent Care</h2>
+      <p>24/7 medical support for unexpected health issues. When visiting us, remember to bring the following 5 items: </p>
+        <ol>
+          <li>Photo ID</li>
+          <li>Health Insurance Card</li>
+          <li>List of Medications</li>
+          <li>List of Allergies</li>
+          <li>Emergency Contact Information</li>
+        </ol>
+      <p><a href="https://www.google.com/maps/search/?api=1&query=ER%20near%20me" target="_blank">Click here to find the closest ER</a></p>
+    </div>
+
+    <div class="container">
+    <h2>Primary Care</h2>
+      <p>Compassionate and consistent care for you and your families:</p>
+        <ul>
+          <li>Annual Physical Exams</li>
+          <li>Chronic Disease Management (Diabetes, Hypertension, etc.)</li>
+          <li>Immunizations and Vaccinations</li>
+          <li>Preventive Health Screenings</li>
+          <li>Acute Illness Diagnosis and Treatment</li>
+        </ul>
+    </div>
+
+    <div class="container">
+    <h2>Specialist Services</h2>
+      <p>Expert care across a wide range of specialties:</p>
+        <ul>
+          <li>Cardiology</li>
+          <li>Dermatology</li>
+          <li>Orthopedics</li>
+          <li>Gastroenterology</li>
+          <li>Endocrinology</li>
+        </ul>
+    </div>
+    
+    <div class="container">
+    <h2>Diagnostic Services</h2>
+      <p>Advanced diagnostic equipment for accurate and timely results:</p>
+        <ul>
+          <li>Laboratory Testing (Blood, Urine, etc.)</li>
+          <li>X-Ray Imaging</li>
+          <li>Ultrasound</li>
+          <li>MRI and CT Scans</li>
+          <li>Cardiac Stress Tests</li>
+        </ul>
+    </div>
+
+  </body>
+  <footer>
+   <h2>Contact Me
+    <a href="mailto:chiang@purdue.edu">
+      <img src="email.png" alt="Email me!">
+    </a>
+    <a href="tel:765-494-9708">
+      <img src="call.png" alt="Call me!">
+    </a>
+  </h2>
+    Last updated: <script>document.write(document.lastModified);</script>
+  </footer>
 </html>
