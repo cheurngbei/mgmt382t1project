@@ -1,11 +1,62 @@
-<!-- navigation page -->
+<!-- navigation.html -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Navigation</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #e6f7f9;
+      color: #2e4e3f;
+    }
+
+    .nav-container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      padding: 20px;
+      box-sizing: border-box;
+      border-right: 2px solid #48c9b0;
+    }
+
+    .nav-title {
+      font-size: 1.4em;
+      color: #117a65;
+      margin-bottom: 15px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: #2e4e3f;
+      padding: 10px 12px;
+      margin: 5px 0;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    a:hover {
+      background-color: #48c9b0;
+      color: white;
+    }
+  </style>
+</head>
 <body>
-    <a href="https://zhouying-1203.github.io/zhou-ying/c1.html" target="showframe">Company Story & History</a><br>
-    <a href="https://zhouying-1203.github.io/zhou-ying/c2.html" target="showframe">Management Team</a><br>
-    <a href="https://siyibei.github.io/Project-page/" target="showframe">Products</a><br>
-    <a href="service.html" target="showframe">Services</a><br>
+
+  <div class="nav-container">
+    <div class="nav-title">Eloheh Navigation</div>
+
+    <a href="https://zhouying-1203.github.io/zhou-ying/c1.html" target="showframe">Company Story & History</a>
+    <a href="https://zhouying-1203.github.io/zhou-ying/c2.html" target="showframe">Management Team</a>
+    <a href="https://siyibei.github.io/Project-page/" target="showframe">Products</a>
+    <a href="service.html" target="showframe">Services</a>
     <a href="https://aaronzzq1.github.io/Team-Project-Zhiqi/" target="showframe">Testimonials</a>
+  </div>
+
 </body>
 </html>
